@@ -68,6 +68,10 @@ html, body {
 
 }
 
+.dropdown-item {
+    color: #111;
+}
+
 .dropdown:hover > .dropdown-menu {
     display: block;
 }
@@ -142,6 +146,10 @@ html, body {
     font-weight: 700;
     text-align: center;
     color: #FFCA08;
+}
+
+#listProducts .products {
+    display: none;
 }
 
 .products .card {
