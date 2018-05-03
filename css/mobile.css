@@ -6,6 +6,11 @@
     }
 
     .products .card .card-footer {
-        opacity: 1;
+        opacity: 1!important;
+    }
+
+    .top-title:after {
+        top: 0!important;
+        left: 50%!important;
     }
 }

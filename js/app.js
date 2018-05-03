@@ -15,5 +15,5 @@ $(function () {
         x = (x - 4 < 0) ? 4 : x - 4;
         $('#listProducts .products').not(':lt(' + x + ')').hide();
     });
-    
+
 });
