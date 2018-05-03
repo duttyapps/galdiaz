@@ -1,18 +1,27 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
 @import url('https://use.fontawesome.com/releases/v5.0.11/css/all.css');
+@import url('mobile.css');
 
 html, body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
 
 .bg-gg-yellow {
-    background-color: #FFCA08!important;
+    background-color: #FFCA08 !important;
+}
+
+.bg-gg-gray {
+    background-color: #f6f6f6;
+}
+
+.top-user-menu {
+
 }
 
 .top-user-menu a {
     color: #111;
-    font-weight: 600;
 }
 
 .top-user-menu a:hover {
@@ -29,8 +38,156 @@ html, body {
     font-weight: 600;
 }
 
+.navbar {
+    padding: 0;
+}
+
 .navbar-light .navbar-nav .nav-link {
     color: #111;
     font-weight: 700;
     text-transform: uppercase;
+    padding: 1rem 1.5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: #0096DB;
+    color: #fff;
+}
+
+.dropdown-menu {
+    margin: 0;
+    border: 0;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    -webkit-box-shadow: 0 3px 9.4px 0.6px rgba(3,39,61,.1);
+    box-shadow: 0 3px 9.4px 0.6px rgba(3,39,61,.1);
+}
+
+.dropdown {
+
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    height: 80px;
+    width: 50px;
+}
+
+#main-wrap {
+    background-color: #f6f6f6;
+}
+
+.top-title {
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    color: #002596;
+    font-weight: 700;
+    z-index: 1;
+}
+
+.top-title:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    background-color: #FFCA08;
+    width: 150px;
+    height: 30px;
+    -webkit-transform: rotate(-10deg);
+    -moz-transform: rotate(-10deg);
+    -ms-transform: rotate(-10deg);
+    -o-transform: rotate(-10deg);
+    transform: rotate(-10deg);
+    z-index: -1;
+}
+
+.top-title:after {
+    content: "";
+    position: absolute;
+    left: 22%;
+    background-color: #FFCA08;
+    width: 50px;
+    height: 50px;
+    -webkit-transform: rotate(35deg);
+    -moz-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg);
+    transform: rotate(35deg);
+    z-index: -1;
+}
+
+.new-products--img {
+    max-height: 250px;
+}
+
+.new-products--title {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 1.3rem;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+.new-products--price {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    color: #FFCA08;
+}
+
+.products .card {
+    border: 0;
+}
+
+.products .card:hover {
+    -webkit-box-shadow: 0 3px 9.4px 0.6px rgba(3,39,61,.1);
+    box-shadow: 0 3px 9.4px 0.6px rgba(3,39,61,.1);
+}
+
+.products .card .card-footer {
+    opacity: 0;
+    text-align: center;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -ms-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+.products .card:hover .card-footer {
+    opacity: 1;
+}
+
+footer {
+    background-color: #FFCA08;
+    font-size: 13px;
+}
+
+footer a {
+    color: #111;
+}
+
+.form-control {
+    border: 0;
+}
+
+.form-control:focus {
+    border-color: transparent;
+}
+
+.btn.btn-primary {
+    background-color: #0096DB;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 4px solid #002596;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+}
+
+.btn.btn-primary:hover {
+    background-color: #0076ad;
 }

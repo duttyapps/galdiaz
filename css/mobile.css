@@ -1,0 +1,7 @@
+@media only screen and (max-width: 600px) {
+    .main-logo {
+        width: 200px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
