@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700');
+@import url('https://use.fontawesome.com/releases/v5.0.11/css/all.css');
+
+html, body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.bg-gg-yellow {
+    background-color: #FFCA08!important;
+}
+
+.top-user-menu a {
+    color: #111;
+    font-weight: 600;
+}
+
+.top-user-menu a:hover {
+
+}
+
+.top-social-menu a {
+    color: #111;
+    font-weight: 500;
+}
+
+.top-misc-menu a {
+    color: #111111;
+    font-weight: 600;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #111;
+    font-weight: 700;
+    text-transform: uppercase;
+}
