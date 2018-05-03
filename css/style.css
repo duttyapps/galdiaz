@@ -71,9 +71,14 @@ html, body {
     display: block;
 }
 
+.navbar-light .navbar-toggler {
+    border: 0;
+}
+
 .carousel-control-next-icon, .carousel-control-prev-icon {
     height: 80px;
     width: 50px;
+    color: black;
 }
 
 #main-wrap {
@@ -183,7 +188,7 @@ footer a {
     border-top: 0;
     border-left: 0;
     border-right: 0;
-    border-bottom: 4px solid #002596;
+    border-bottom: 4px solid #005780;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
 }
