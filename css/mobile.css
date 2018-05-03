@@ -4,4 +4,8 @@
         margin-left: auto;
         margin-right: auto;
     }
+
+    .products .card .card-footer {
+        opacity: 1;
+    }
 }
