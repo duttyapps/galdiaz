@@ -25,7 +25,8 @@ html, body {
 }
 
 .top-user-menu a:hover {
-
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 0.25rem;
 }
 
 .top-social-menu a {
@@ -50,8 +51,7 @@ html, body {
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-    background-color: #0096DB;
-    color: #fff;
+    background-color: #FFDF4C;
 }
 
 .dropdown-menu {
@@ -59,8 +59,9 @@ html, body {
     border: 0;
     border-top-left-radius: 0;
     border-top-right-radius: 0;
-    -webkit-box-shadow: 0 3px 9.4px 0.6px rgba(3,39,61,.1);
-    box-shadow: 0 3px 9.4px 0.6px rgba(3,39,61,.1);
+    background-color: #FFDF4C;
+    -webkit-box-shadow: 0 6px 9.4px 0.6px rgba(3,39,61,.1);
+    box-shadow: 0 6px 9.4px 0.6px rgba(3,39,61,.1);
 }
 
 .dropdown {
