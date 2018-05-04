@@ -238,4 +238,5 @@ footer a {
 
 .scrollToTop:hover {
     cursor: pointer;
+    opacity: 1;
 }
