@@ -6,11 +6,22 @@
     }
 
     .products .card .card-footer {
-        opacity: 1!important;
+        opacity: 1 !important;
     }
 
     .top-title:after {
-        top: 0!important;
-        left: 50%!important;
+        top: 0 !important;
+        left: 50% !important;
+    }
+
+    .top-user-menu {
+        display: block;
+        justify-content: normal !important;
+        overflow-x: scroll;
+        white-space: nowrap;
+    }
+
+    .top-user-menu li {
+        display: inline-block;
     }
 }
