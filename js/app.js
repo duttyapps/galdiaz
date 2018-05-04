@@ -16,4 +16,16 @@ $(function () {
         $('#listProducts .products').not(':lt(' + x + ')').hide();
     });
 
+    var navbar_pos = $('#main-navbar').offset().top;
+    var navbar_height = $('#main-navbar').height();
+
+    $(document).on('scroll', function () {
+        if ($(this).scrollTop() > navbar_pos) {
+            $('#nb-fake-wrap').css('height', navbar_height);
+            $('#main-navbar').addClass('fixed-top');
+        } else {
+            $('#nb-fake-wrap').css('height', 0);
+            $('#main-navbar').removeClass('fixed-top');
+        }
+    });
 });
