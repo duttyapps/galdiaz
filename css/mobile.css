@@ -13,6 +13,11 @@
         display: none;
     }
 
+    .products .card {
+        -webkit-box-shadow: 0 3px 9.4px 0.6px rgba(3, 39, 61, .1);
+        box-shadow: 0 3px 9.4px 0.6px rgba(3, 39, 61, .1);
+    }
+
     .products .card .card-footer {
         opacity: 1 !important;
     }

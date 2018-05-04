@@ -5,7 +5,7 @@
 
 html, body {
     font-family: 'Roboto', sans-serif;
-    font-size: 14px;
+    font-size: 13px;
 }
 
 #header-gg {
@@ -221,6 +221,11 @@ footer a {
 
 .btn.btn-primary:hover {
     background-color: #0076ad;
+}
+
+.btn.btn-search {
+    font-size: 20px;
+    background-color: #FFDF4C;
 }
 
 .scrollToTop {
