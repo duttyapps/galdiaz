@@ -35,8 +35,8 @@ html, body {
 }
 
 .top-misc-menu a {
+    font-size: 13px;
     color: #111111;
-    font-weight: 600;
 }
 
 .navbar {
@@ -45,7 +45,7 @@ html, body {
 
 .navbar-light .navbar-nav .nav-link {
     color: #111;
-    font-weight: 700;
+    font-weight: 400;
     text-transform: uppercase;
     padding: 1rem 1.5rem;
 }
@@ -145,7 +145,7 @@ html, body {
     font-size: 1.8rem;
     font-weight: 700;
     text-align: center;
-    color: #FFCA08;
+    color: #002596;
 }
 
 #listProducts .products {
