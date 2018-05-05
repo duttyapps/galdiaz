@@ -22,10 +22,10 @@ $(function () {
     $(document).on('scroll', function () {
         if ($(this).scrollTop() >= navbar_pos) {
             $('#nb-fake-wrap').css('height', navbar_height);
-            $('#main-navbar').addClass('fixed-top');
+            $('#main-navbar').addClass('fixed-top shadow');
         } else {
             $('#nb-fake-wrap').css('height', 0);
-            $('#main-navbar').removeClass('fixed-top');
+            $('#main-navbar').removeClass('fixed-top shadow');
         }
 
         if ($(this).scrollTop() > 100) {
