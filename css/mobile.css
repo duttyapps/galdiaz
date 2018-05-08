@@ -73,6 +73,17 @@
 
     .display-4 {
         font-size: 2.5rem;
-        padding-bottom: ;
+    }
+
+    #carouselProductPreview {
+        margin-bottom: 1.5rem;
+    }
+
+    .view-product .view-product-details .view-product--price {
+        font-size: 2.5rem!important;
+    }
+
+    .view-product .view-product-details .view-product--add-cart {
+        text-align: center;
     }
 }
