@@ -1,3 +1,10 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12 my-4">
+			<img src="https://www.grupogaldiaz.com/Content/Template/images/home/Banner_Camp_Mayo.jpg" class="img-fluid">
+		</div>
+	</div>
+</div>
 <footer class="pt-5 pb-2">
     <div class="container">
         <div class="row">
