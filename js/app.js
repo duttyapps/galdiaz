@@ -1,6 +1,6 @@
 $(function () {
     var products_size = $("#listProducts .products").length;
-    var x = 4;
+    var x = 8;
     $("#listProducts .products:lt(" + x + ")").show();
 
     $("#btnShowMore").click(function () {

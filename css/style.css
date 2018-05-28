@@ -19,6 +19,10 @@ html, body {
     background-color: #FFCA08 !important;
 }
 
+.bg-gg-blue-gradient {
+    background: linear-gradient(to bottom, #66ccff 0%, #0091d6 100%) !important;
+}
+
 .bg-gg-gray {
     background-color: #f6f6f6;
 }
@@ -57,7 +61,7 @@ html, body {
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color: #111;
+    color: #fff;
     font-weight: 400;
     text-transform: uppercase;
     padding: 1rem 1.5rem;
@@ -207,6 +211,40 @@ html, body {
 }
 
 .products .card:hover .card-footer {
+    opacity: 1;
+}
+
+.products .card .quick-view {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition: opacity 300ms;
+    -moz-transition: opacity 300ms;
+    -ms-transition: opacity 300ms;
+    -o-transition: opacity 300ms;
+    transition: opacity 300ms;
+}
+
+.products .card .quick-view .spn {
+    position: absolute;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    background-color: rgba(255, 202, 8, .7);
+    padding: 10px 25px;
+    text-transform: uppercase;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+.products .card:hover .quick-view {
     opacity: 1;
 }
 

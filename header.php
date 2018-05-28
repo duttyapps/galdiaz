@@ -110,7 +110,7 @@
     </div>
 </header>
 <div id="nb-fake-wrap"></div>
-<nav id="main-navbar" class="navbar navbar-expand-md navbar-light bg-gg-yellow">
+<nav id="main-navbar" class="navbar navbar-expand-md navbar-light bg-gg-blue-gradient">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsCategory"
             aria-controls="navbarsCategory" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
