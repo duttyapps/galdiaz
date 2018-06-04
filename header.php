@@ -119,7 +119,7 @@
     <div class="navbar-brand mr-auto d-block d-sm-none text-center p-3">
         Categorías
     </div>
-    <div class="container">
+    <div class="container d-contents">
         <div class="collapse navbar-collapse" id="navbarsCategory">
             <ul class="navbar-nav">
                 <li class="nav-item dropdown">

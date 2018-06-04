@@ -86,4 +86,8 @@
     .view-product .view-product-details .view-product--add-cart {
         text-align: center;
     }
+
+    .d-contents {
+        display: contents!important;
+    }
 }

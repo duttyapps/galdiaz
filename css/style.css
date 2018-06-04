@@ -8,6 +8,24 @@ html, body {
     font-size: 13px;
 }
 
+::-webkit-scrollbar {
+    width: 0.5em;
+    height: 0.5em;
+}
+
+::-webkit-scrollbar-thumb {
+    background: slategray;
+    border-radius: 1.5em;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: whitesmoke;
+}
+
+::-webkit-scrollbar-track {
+    background: #b8c0c8;
+}
+
 #header-gg {
     background-image: url("../img/bg1.png");
     background-position: right center;
@@ -284,7 +302,8 @@ footer a {
 
 .btn.btn-search {
     font-size: 20px;
-    background-color: #FFDF4C;
+    background-color: transparent;
+    color: white!important;
 }
 
 .dropdown-search {
