@@ -19,7 +19,29 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <div id="carouselProductPreview" class="carousel slide border rounded" data-ride="carousel">
+                                <img class="w-100" id="img_01" src="https://www.grupogaldiaz.com/Content/Template/images/index/378873--.jpg" data-zoom-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873--.jpg"/>
+                                <div id="gal1">
+
+                                    <div class="row">
+                                        <div class="col">
+                                            <a href="#" data-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873--.jpg" data-zoom-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873--.jpg">
+                                                <img class="w-100" id="img_01" src="https://www.grupogaldiaz.com/Content/Template/images/index/378873--.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" data-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873-.jpg" data-zoom-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873-.jpg">
+                                                <img class="w-100" id="img_01" src="https://www.grupogaldiaz.com/Content/Template/images/index/378873-.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="col">
+                                            <a href="#" data-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873.jpg" data-zoom-image="https://www.grupogaldiaz.com/Content/Template/images/index/378873.jpg">
+                                                <img class="w-100" id="img_01" src="https://www.grupogaldiaz.com/Content/Template/images/index/378873.jpg" />
+                                            </a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <!--div id="carouselProductPreview" class="carousel slide border rounded" data-ride="carousel">
                                     <ol class="carousel-indicators">
                                         <li data-target="#carouselProductPreview" data-slide-to="0" class="active"></li>
                                         <li data-target="#carouselProductPreview" data-slide-to="1"></li>
@@ -36,7 +58,7 @@
                                             <img class="d-block w-100" src="https://www.grupogaldiaz.com/Content/Template/images/index/378873.jpg" alt="Third slide">
                                         </div>
                                     </div>
-                                </div>
+                                </div-->
                             </div>
                             <div class="col-lg-6">
                                 <div class="view-product-details">

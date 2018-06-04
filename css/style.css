@@ -360,3 +360,11 @@ footer a {
 .form-gg .form-control {
     border: 1px solid #ccc;
 }
+
+#gal1 img {
+    border: 2px solid #f6f6f6;
+}
+
+#gal1 .active img {
+    border: 2px solid #ccc;
+}

@@ -35,8 +35,19 @@ $(function () {
         }
     });
 
-    $('.scrollToTop').click(function(){
-        $('html, body').animate({scrollTop : 0},800);
+    $('.scrollToTop').click(function () {
+        $('html, body').animate({scrollTop: 0}, 800);
         return false;
     });
+
+    $("#img_01").elevateZoom(
+        {
+            zoomType: "inner",
+            gallery: 'gal1',
+            cursor: 'pointer',
+            galleryActiveClass: 'active',
+            imageCrossfade: true,
+            loadingIcon: 'http://www.elevateweb.co.uk/spinner.gif'
+        }
+    );
 });
