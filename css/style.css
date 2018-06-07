@@ -233,17 +233,18 @@ html, body {
 }
 
 .products .card .quick-view {
-    opacity: 0;
+    background-color: rgba(0, 37, 150, .3);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
-    -webkit-transition: opacity 300ms;
-    -moz-transition: opacity 300ms;
-    -ms-transition: opacity 300ms;
-    -o-transition: opacity 300ms;
-    transition: opacity 300ms;
+    height: 0;
+    opacity: 0;
+    -webkit-transition: all 300ms;
+    -moz-transition: all 300ms;
+    -ms-transition: all 300ms;
+    -o-transition: all 300ms;
+    transition: all 300ms;
 }
 
 .products .card .quick-view .spn {
@@ -251,8 +252,12 @@ html, body {
     width: 70%;
     top: 50%;
     left: 50%;
-    background-color: rgba(255, 202, 8, .7);
+    background-color: rgb(255, 202, 8);
     padding: 10px 25px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: 700;
     text-transform: uppercase;
     -webkit-transform: translateX(-50%);
     -moz-transform: translateX(-50%);
@@ -262,7 +267,12 @@ html, body {
     text-align: center;
 }
 
+.products .card .quick-view .spn:hover {
+    text-decoration: none;
+}
+
 .products .card:hover .quick-view {
+    height: 100%;
     opacity: 1;
 }
 
@@ -303,7 +313,7 @@ footer a {
 .btn.btn-search {
     font-size: 20px;
     background-color: transparent;
-    color: white!important;
+    color: white !important;
 }
 
 .dropdown-search {

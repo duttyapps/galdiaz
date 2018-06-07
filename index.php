@@ -39,11 +39,9 @@
                 <div class="products col-lg-3">
                     <div class="card mb-4">
                         <div class="quick-view">
-                            <div class="spn">
-                                <a href="article.php">
-                                    Vista Previa
-                                </a>
-                            </div>
+                            <a class="spn" href="article.php">
+                                Vista Previa
+                            </a>
                         </div>
                         <img src="https://www.grupogaldiaz.com/Content/Template/images/index/HW-XSBK-.jpg" alt=""
                              class="img-fluid new-products--img">
@@ -55,7 +53,7 @@
                                 S/ 22.00
                             </div>
                         </div>
-                        <div class="card-footer">
+                        <!--div class="card-footer">
                             <div class="row">
                                 <div class="col border-right">
                                     <a href="#">
@@ -68,7 +66,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div>
+                        </div-->
                     </div>
                 </div>
                 <div class="products col-lg-3">
