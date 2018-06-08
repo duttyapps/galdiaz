@@ -39,7 +39,7 @@
                 <div class="products col-lg-3">
                     <div class="card mb-4">
                         <div class="quick-view">
-                            <a class="spn" href="article.php">
+                            <a class="spn" href="#" data-toggle="modal" data-target="#exampleModal">
                                 Vista Previa
                             </a>
                         </div>
@@ -53,7 +53,7 @@
                                 S/ 22.00
                             </div>
                         </div>
-                        <!--div class="card-footer">
+                        <div class="card-footer">
                             <div class="row">
                                 <div class="col border-right">
                                     <a href="#">
@@ -66,7 +66,7 @@
                                     </a>
                                 </div>
                             </div>
-                        </div-->
+                        </div>
                     </div>
                 </div>
                 <div class="products col-lg-3">
@@ -610,5 +610,20 @@
             </div>
         </div>
     </section>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <?php include 'quickview.php'; ?>
+                </div>
+            </div>
+        </div>
+    </div>
 
 <?php include 'footer.php'; ?>
